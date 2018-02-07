@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-up" width="16" height="9" tilewidth="96" tileheight="96">
+ <tileset firstgid="1" name="tiles" tilewidth="96" tileheight="96">
+  <image source="tiles.png" trans="ff00ff" width="768" height="576"/>
+  <tile id="23">
+   <properties>
+    <property name="canTouch" value="1"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="canTouch" value="1"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="canTouch" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="bg" width="16" height="9">
+  <data encoding="base64" compression="zlib">
+   eJyN0EkKwDAIBdB0INBh10ACLaXjotP9r9e/sCCC0sUDFU1MBufcxGSQi5rGQyKBVFDDChvsMJJkCCK/4IaH8sho8/KMKGJvzPP+GRZxZ2Q9BZTG/AEnxfztHfU00Crzf1j/+NF2lHqlru0ovbphDXM=
+  </data>
+ </layer>
+ <objectgroup name="obj">
+  <object name="0" x="715" y="233"/>
+  <object name="1" x="715" y="400"/>
+  <object name="2" x="1018" y="394"/>
+  <object name="3" x="1018" y="218"/>
+  <object name="4" x="1185" y="215"/>
+  <object name="5" x="1185" y="585"/>
+  <object name="6" x="333" y="594"/>
+  <object name="7" x="333" y="307" width="20" height="19"/>
+  <object name="8" x="235" y="320"/>
+  <object name="9" x="235" y="121"/>
+  <object name="10" x="477" y="117"/>
+ </objectgroup>
+</map>
